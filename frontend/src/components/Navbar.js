@@ -1,9 +1,7 @@
-// Navbar.js
 import React from "react";
 import "./Navbar.css";
 
 function Navbar(props) {
-  // Smooth scrolling function
   const smoothScrollTo = (targetId) => {
     const target = document.getElementById(targetId);
     if (target) {

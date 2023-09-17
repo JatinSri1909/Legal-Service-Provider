@@ -1,4 +1,3 @@
-// Laws.js
 import React from "react";
 import "./Laws.css";
 
@@ -12,7 +11,6 @@ function Laws() {
         <li>Indian Penal Code (IPC)</li>
         <li>Legal Procedures and Codes</li>
         <li>Recent Amendments</li>
-        {/* Add more legal topics as needed */}
       </ul>
       <p>Understanding the legal landscape is crucial for individuals and businesses.</p>
     </div>

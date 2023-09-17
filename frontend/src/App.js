@@ -1,4 +1,3 @@
-// App.js
 import React, { useState } from "react";
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
@@ -12,7 +11,6 @@ import "./App.css";
 function App() {
   const [currentSection, setCurrentSection] = useState("home-section");
 
-  // Define the smoothScrollTo function
   const smoothScrollTo = (targetId) => {
     const target = document.getElementById(targetId);
     if (target) {

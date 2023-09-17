@@ -1,4 +1,3 @@
-/* Home.css */
 .page {
   padding: 4rem;
   text-align: center;
@@ -37,7 +36,6 @@
   background-color: #e76f51;
 }
 
-/* Media Query for Smaller Screens (e.g., mobile) */
 @media (max-width: 768px) {
   .page {
     padding: 2rem;

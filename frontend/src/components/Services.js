@@ -12,7 +12,6 @@ function Services(props) {
         <li>Document Drafting and Notarization</li>
         <li>Mediation and Dispute Resolution</li>
         <li>Arbitration Services</li>
-        {/* Add more services as needed */}
       </ul>
       
     </div>
