@@ -1,0 +1,58 @@
+/* Home.css */
+.page {
+  padding: 4rem;
+  text-align: center;
+  background-color: #f8f9fa;
+}
+
+.page img {
+  max-width: 100%;
+  height: auto;
+}
+
+.page h1 {
+  font-size: 2.5rem;
+  margin-top: 2rem;
+  color: #23395b;
+}
+
+.page p {
+  font-size: 1.2rem;
+  margin: 1rem 0;
+  color: #333;
+}
+
+.button {
+  background-color: #23395b;
+  color: #fff;
+  padding: 0.8rem 2rem;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #e76f51;
+}
+
+/* Media Query for Smaller Screens (e.g., mobile) */
+@media (max-width: 768px) {
+  .page {
+    padding: 2rem;
+  }
+
+  .page h1 {
+    font-size: 2rem;
+  }
+
+  .page p {
+    font-size: 1rem;
+  }
+
+  .button {
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+  }
+}

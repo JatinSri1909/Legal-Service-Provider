@@ -1,0 +1,33 @@
+/* About.css */
+.page {
+  padding: 4rem;
+  background-color: #fff;
+  text-align: center;
+}
+
+.page h2 {
+  font-size: 2.2rem;
+  margin-bottom: 1rem;
+  color: #23395b;
+}
+
+.page p {
+  font-size: 1.2rem;
+  margin: 1rem 0;
+  color: #333;
+}
+
+/* Media Query for Smaller Screens (e.g., mobile) */
+@media (max-width: 768px) {
+  .page {
+    padding: 2rem;
+  }
+
+  .page h2 {
+    font-size: 1.8rem;
+  }
+
+  .page p {
+    font-size: 1rem;
+  }
+}

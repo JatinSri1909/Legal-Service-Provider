@@ -1,0 +1,48 @@
+/* Services.css */
+.page {
+  padding: 4rem;
+  background-color: #f8f9fa;
+  text-align: center;
+}
+
+.page h2 {
+  font-size: 2.2rem;
+  margin-bottom: 1rem;
+  color: #23395b;
+}
+
+.page p {
+  font-size: 1.2rem;
+  margin: 1rem 0;
+  color: #333;
+}
+
+.page ul {
+  list-style: none;
+  padding: 0;
+}
+
+.page li {
+  font-size: 1.2rem;
+  margin: 0.5rem 0;
+  color: #23395b;
+}
+
+/* Media Query for Smaller Screens (e.g., mobile) */
+@media (max-width: 768px) {
+  .page {
+    padding: 2rem;
+  }
+
+  .page h2 {
+    font-size: 1.8rem;
+  }
+
+  .page p {
+    font-size: 1rem;
+  }
+
+  .page li {
+    font-size: 1rem;
+  }
+}
