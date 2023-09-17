@@ -92,5 +92,3 @@ We welcome contributions from the community! If you'd like to contribute to this
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 ```
-
-You can copy and paste this entire snippet into your README.md file.
